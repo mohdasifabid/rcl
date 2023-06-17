@@ -1,0 +1,64 @@
+.btn {
+  display: flex;
+  transition-duration: 0.4s;
+  padding: 13px 15px;
+  background-color: #407ff5;
+  border: solid white 1px;
+  border-radius: 6px;
+  display: inline;
+  font-size: 15px;
+  cursor: pointer;
+  color: #fff;
+}
+.btn:active {
+  transform: translateY(6px);
+}
+
+.elevated-btn {
+  color: white;
+  background-color: #407ff5;
+  border: solid white 2px;
+  border-radius: 6px;
+  width: 6rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: #358bd6 2px;
+
+}
+.elevated-btn:active {
+  transform: translateY(2px);
+  background-color: #407ff5;
+}
+
+
+.outline-Btn {
+  color: black;
+  background-color: #fff;
+  border: 2px solid #407ff5;
+  border-radius: 4px;
+  height: 2.5rem;
+  width: 5rem;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.outline-Btn:active {
+  transform: translateY(2px);
+  background-color: aliceblue;
+}
+.txtBtn {
+  color: black;
+  background-color: azure;
+  border: solid white 2px;
+  border-radius: 6px;
+  height: 2.5rem;
+  width: 5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.txtBtn:active {
+  transform: translateY(2px);
+  background-color: aliceblue;
+}
+

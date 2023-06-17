@@ -1,0 +1,41 @@
+.error-icon-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a32323;
+    color: white;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+}
+.error-icon{
+    font-size: xx-large;
+}
+.successful-alert-icon-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+}
+.successful-alert-icon{
+    font-size: xx-large;
+}
+
+.security-icon-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    font-size: larger;
+    color: black;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+}
+.security-icon{
+    font-size: xx-large;
+}

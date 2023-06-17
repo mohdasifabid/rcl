@@ -1,0 +1,23 @@
+.sidebar-wrapper {
+  flex-basis: 200px;
+  display: flex;
+  flex-direction: column;
+  border-right: 3px solid whitesmoke;
+  align-items: center;
+}
+.sidebar-links {
+  font-size: larger;
+  color: black;
+  text-decoration: none;
+  padding: 4px 0;
+  width: 8rem;
+  text-align: center;
+}
+.sidebar-links:hover {
+  background-color: antiquewhite;
+}
+@media (max-width: 600px) {
+  .sidebar-wrapper {
+    display: none;
+  }
+}

@@ -1,0 +1,12 @@
+.layout-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.layout-body {
+  display: flex;
+  flex-grow: 1;
+}
+.layout-content {
+  padding: 1rem;
+}
